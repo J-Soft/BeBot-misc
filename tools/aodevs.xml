@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Project" Version="1" xsi:noNamespaceSchemaLocation="http://aodevs.com/xsd/Project.v1.xsd">
+  <Name>BeBot</Name>
+  <Tagline>An Anarchy Online and Age of Conan chat automaton</Tagline>
+  <Description>    
+	BeBot is a modular PHP and MySQL based bot allowing for easy integration with websites and gives guilds the power to manage both their organization and raids.
+  </Description>
+  <License>GPLv2</License>
+  <Games>
+    <Game>Anarchy Online</Game>
+    <Game>Age of Conan</Game>
+  </Games>
+  <Pages>
+    <Page Label="Contributors">
+		[b]Project founders[/b][br]
+		BeBot was created by Jonas Jax (Blondengy (RK1)) in 2004 with spiritual guidance by Thomas Juberg (Khalem (RK1)).[br] [br]
+		[b]Developers and contributors[/b][br]
+		Currently maintained by a small group of dedicated community members with good help from the Anarchy Online community at large.[br] [br]
+		The following people have written code that have made it into BeBot in one form or another:[br][ulist]
+		[*] Akarah (RK1)
+		[*] Bigburtha (RK2) aka. Craized
+		[*] Derroylo (RK2)
+		[*] Ebag333 (RK2)
+		[*] Foxferal (RK1)
+		[*] Jackjonez (RK1)
+		[*] Parfet (RK2)
+		[*] Sabkor (RK1)
+		[*] Temar (RK1)
+		[*] Vhab (RK1)
+		[*] Wolfbiter (RK1)
+		[*] Xenixa (RK1)
+		[*] Zacix (RK2)
+		[*] Zarkingu (RK2)
+		[/ulist][br]
+		Special thanks go out to the best MMORPG community in existence and Auno for writing and maintaining the PHP AOChat library.
+    </Page>
+  </Pages>
+  <Staff>
+    <Member Position="Lead Developer" Name="Khalem" Server="Atlantean" />
+  </Staff>
+  <Links>
+    <Link Label="Website" Url="http://bebot.shadow-realm.org"/>
+    <Link Label="Forums" Url="http://bebot.shadow-realm.org/index.php?action=forum" />
+    <Link Label="Downloads" Url="https://launchpad.net/bebot/+download" />
+    <Link Label="Github" Url="https://github.com/J-Soft/BeBot-legacy" />
+  </Links>
+  <Versions>
+    <LocalVersion Type="Stable" Value="0.6.8" Package="0.6.8" />
+  </Versions>
+  <Packages>
+    <Package Name="0.6.8">
+      <Link Label="zip" Url="https://launchpad.net/bebot/0.6/0.6.8/+download/BeBot-0.6.8.zip" />
+      <Link Label="tar.gz" Url="https://launchpad.net/bebot/0.6/0.6.8/+download/BeBot-0.6.8.tar.gz" />
+      <Link Label="tar.bz2" Url="https://launchpad.net/bebot/0.6/0.6.8/+download/BeBot-0.6.8.tar.bz2" />
+    </Package>
+  </Packages>
+</Root>
